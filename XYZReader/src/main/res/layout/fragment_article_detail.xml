@@ -21,9 +21,11 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                     />
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_height="@dimen/detail_card_top_margin"
+                    android:adjustViewBounds="true"
+                    android:transitionName="@string/image_transition"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -40,7 +42,8 @@
                 android:maxWidth="@dimen/detail_card_max_width"
                 android:background="#fff"
                 android:elevation="2dp"
-                android:layout_marginTop="@dimen/detail_card_top_margin">
+                android:layout_marginTop="@dimen/detail_card_top_margin"
+                >
 
                 <LinearLayout
                     android:id="@+id/meta_bar"
