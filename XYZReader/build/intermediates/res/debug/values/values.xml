@@ -69,6 +69,9 @@
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
     <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/colors.xml -->
     <eat-comment/>
+    <color name="indigo_300">#7986CB</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="indigo_700">#303F9F</color>
     <color name="ltgray">#ffe0e0e0</color>
     <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml -->
     <eat-comment/>
@@ -87,6 +90,7 @@
     <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="photo_placeholder">#ccc</color>
+    <color name="pink_a200">#FF4081</color>
     <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">@android:color/black</color>
@@ -290,7 +294,7 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml -->
@@ -385,6 +389,9 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="image_transition">image_transition</string>
     <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1393,6 +1400,10 @@
     </style>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MyCustomTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
     </style>
     <!-- From: file:/Users/archit.m/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml -->
     <eat-comment/>

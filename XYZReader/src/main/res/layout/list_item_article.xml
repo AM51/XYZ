@@ -8,6 +8,7 @@
     android:layout_marginBottom="4dp"
     android:clickable="true"
     android:focusable="true"
+    android:elevation="2dp"
     android:foreground="?selectableItemBackground">
 
     <LinearLayout
@@ -33,8 +34,9 @@
             android:paddingTop="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="4dp"
-            android:textColor="@color/ltgray"
             android:ellipsize="end"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
             android:maxLines="4" />
 
         <TextView
@@ -48,6 +50,7 @@
             android:textColor="#6000"
             android:maxLines="2"
             android:singleLine="false"
+            android:textSize="12sp"
             android:ellipsize="end" />
     </LinearLayout>
 
